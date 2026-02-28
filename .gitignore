@@ -1,15 +1,24 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Локальные файлы SDK (разные на каждом компьютере)
 local.properties
+
+# Файлы сборки (пересоздаются при компиляции)
+*/build/
+build/
+.gradle/
+.cxx/
+.externalNativeBuild/
+captures/
+
+# Файлы Android Studio (пересоздаются при открытии проекта)
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+
+# Временные файлы
+*.log
+*.lock
+*.swp
+*.swo
+*~
